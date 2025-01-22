@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+
+            height: 100vh;
+
+            display: flex;
+
+            justify-content: center;
+
+            align-items: center;
+
+        }
+
+        div {
+
+            height: 200px;
+
+            width: 200px;
+
+            display: flex;
+
+            justify-content: center;
+
+            align-items: center;
+
+            background-color: rgb(25, 159, 211);
+
+            color: white;
+
+            font-size: 20px;
+
+            animation-name: spin;
+
+            animation-duration: 4s;
+
+            animation-fill-mode: forwards;
+
+
+        }
+
+        @keyframes spin {
+            0% {
+                background-color: aqua;
+
+
+            }
+
+            15% {
+                background-color: palevioletred;
+                border: 1cm;
+            }
+
+            40% {
+                background-color: yellowgreen;
+                border-radius: 10%;
+            }
+
+            60% {
+                background-color: gray;
+            }
+
+            80% {
+                background-color: black;
+                border-radius: 100%;
+            }
+
+            100% {
+                transform: rotate(360deg);
+                border-radius: 40%;
+                scale: 3;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        Codingal
+    </div>
+</body>
+
+</html>
