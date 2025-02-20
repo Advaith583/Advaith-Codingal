@@ -9,18 +9,16 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
-<header class="container-fliud text-center text-white bg-primary py-5">
+<header class="container-fliud text-center text-white bg-success py-5">
     <h1 class="display-1"></h1>
-    <h1 class="diaplay-5"> Understanding Bootstrap</h1>
+    <h1 class="diaplay-5"> Coffee&Tea</h1>
 
 </header>
 
 <main class="container mt-5 mb-5"></main>
 <section class="mb-4">
-    <h3 class="text-primary"> Text Colour and Text Alignment</h3>
-    <p class="text-success"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores suscipit possimus
-        obcaecati voluptatem dolore. Odit nisi veritatis dolore ab, perferendis, incidunt ea officiis quos, ratione
-        expedita fugit nihil nulla quod?</p>
+    <h3 class="text-primary text-center" te>Impotance of caffinee</h3>
+    <p class="text-success text-center">Caffeine can be considered "good for you" in moderate amounts because it acts as a stimulant, boosting alertness, focus, and cognitive function, potentially improving mood and physical performance?</p>
     <p class="text-danger text-center"> This text is red and centered</p>
 </section>
 
@@ -33,10 +31,13 @@
     </p>
     <dl>
         <dt 1)> Benfits of drinking coffee</dt>
-        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa maiores officiis, perferendis dolorum fugiat in. Corporis, consectetur officia? Est exercitationem neque modi placeat. Excepturi nulla officiis alias ipsum nostrum dolores!</dd>
+        <dd class="text-info">Studies show that drinking at least 2 cups of coffee a day can be beneficial to your health. Coffee contains antioxidants and polyphenols which promote cardiovascular health, reduces inflammation, and may even help prevent Alzheimer's disease. Plus, it can give you a boost in energy levels and cognitive function.</dd>
         <dt 2)>Befinits of Drinking Tea</dt>
-        <dd>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. A quia beatae expedita consectetur architecto, qui voluptatum aut, optio sint delectus reprehenderit assumenda consequuntur hic aperiam eaque, inventore vero sit praesentium!
+        <dd class="text-danger">
+            Drinking tea has many potential health benefits, including: 
+            Antioxidants: Tea contains antioxidants that help prevent cell damage and may protect against heart disease. 
+            Reduced risk of heart disease: Some studies suggest that drinking tea may reduce the risk of heart attack and stroke. 
+            Improved bone health: Tea may increase bone mass and density, and reduce bone resorption. 
         </dd>
     </dl>
 </section>
