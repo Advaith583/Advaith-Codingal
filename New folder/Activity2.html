@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advaith's Cricket Bats</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: Arial, sans-serif; line-height: 1.6; background-color: #f9f9f9; }
+        header { background: #0a3d62; color: #fff; padding: 20px 0; text-align: center; }
+        nav { background: #1e3799; padding: 10px; text-align: center; }
+        nav a { color: #fff; text-decoration: none; margin: 0 15px; font-weight: bold; }
+        nav a:hover { text-decoration: underline; }
+        .hero { background: url('https://images.unsplash.com/photo-1590230461796-bd09d258d37f') center/cover; color: #fff; padding: 80px 20px; text-align: center; }
+        .hero h1 { font-size: 2.5rem; }
+        .products, .about, .contact { padding: 40px 20px; text-align: center; }
+        .product-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+        .product { background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .product img { width: 100%; height: 200px; object-fit: cover; border-radius: 10px; }
+        footer { background: #0a3d62; color: #fff; text-align: center; padding: 10px; margin-top: 20px; }
+        @media (max-width: 600px) { .hero h1 { font-size: 1.8rem; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Advaith's Cricket Bats</h1>
+        <p>Premium Quality Bats for Every Player</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home" class="hero">
+        <h1>Find Your Perfect Cricket Bat</h1>
+        <p>Top-notch bats crafted for performance and durability.</p>
+    </section>
+
+    <section id="products" class="products">
+        <h2>Our Products</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1603354350317-7e3c51a9afbb" alt="Cricket Bat 1">
+                <h3>Advaith Pro Blade</h3>
+                <p>High-grade English willow bat for professionals.</p>
+                <p><strong>$299</strong></p>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1577734645393-ff3d7c02b8b9" alt="Cricket Bat 2">
+                <h3>Advaith Power Hit</h3>
+                <p>Designed for power hitters with enhanced grip.</p>
+                <p><strong>$249</strong></p>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1541069611686-4b826a56f46c" alt="Cricket Bat 3">
+                <h3>Advaith Junior Ace</h3>
+                <p>Perfect for young and aspiring cricketers.</p>
+                <p><strong>$199</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>At Advaith's Cricket Bats, we are passionate about delivering the best cricketing gear. Our bats are crafted with precision and love for the game.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@advaithcricketbats.com</p>
+        <p>Phone: +1 234 567 890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Advaith's Cricket Bats. All rights reserved.</p>
+    </footer>
+</body>
+</html>
