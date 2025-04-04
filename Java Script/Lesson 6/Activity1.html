@@ -1,0 +1,93 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   Enter the Message: <input type="text"  id="msg"> 
+   <button onclick="greet()">wish</button>
+   <script>
+    function greet(){
+        var text=document.getElementById("msg").value
+        alert("your wish is :"+text)
+
+    }
+   </script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    body{
+    
+    font-family: sans-serif;
+    
+    }
+    
+    fieldset{
+    
+    padding: 40px;
+    
+    width: 200px;
+    
+    }
+    
+    button{
+    
+    width: 200px;
+    
+    border-radius: 20px;
+    
+    padding: 10px;
+    
+    font-size: 20px;
+    
+    background-color: rgb(106, 201, 106);
+    
+    }
+    
+    input{
+    
+    padding: 10px;
+    
+    border-radius: 20px;
+    
+    font-size: 20px;
+    
+    }
+    
+    </style>
+<body>
+  <center>
+    <h1>Magic Buttons</h1>
+ <fieldset>
+    number 1: <input type="number" id="num1"><br><br>
+    number 2: <input type="number" id="num2"><br><br>
+    <button onclick="add()">Add</button><br><br>
+ </fieldset>
+ <fieldset style="margin-top: 20px;">
+    <h2 id="result">Answer will show here</h2>
+
+ </fieldset>
+
+  </center>  
+  <script>
+    function add(){
+        let a = parseInt(document.getElementById("num1").value);
+        let b = parseInt(document.getElementById("num2").value);
+        let result= a+b;
+
+        document.getElementById("result").innerHTML=result;
+    }
+   
+  </script>
+</body>
+</html>
