@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <H1>Give Expressions</H1><hr>
+    <p><i>For Example 10+20-10</i></p>
+
+    <input type="text" name="" id="exp"><br><br>
+    <button onclick="add()" >ADD</button>
+    <h2 id="result"></h2
+    </center>
+    <script>
+        function add(){
+            let exp = document.getElementById("exp").value
+            let ans = eval(exp)
+            document.getElementById("result").innerHTML="Ans is :"+ans
+
+        }
+
+       
+    </script>
+    
+</body>
+</html>

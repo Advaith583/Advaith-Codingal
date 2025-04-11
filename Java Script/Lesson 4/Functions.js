@@ -15,3 +15,8 @@ function printBookDetails(obj){
     console.log("Price:",obj.Price);
 
 }
+
+let book={
+    title:"cdkc ld ",
+};
+console.log("title",book.title);
