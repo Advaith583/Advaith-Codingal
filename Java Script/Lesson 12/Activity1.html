@@ -121,11 +121,16 @@ function validateForm() {
         errorMessage.textContent = "Password must be between 6 and 10 characters!";
         errorMessage.style.color = "red";
         
-    }else {
+    }else if(username.lenght<5 || username.lenght >12 ){
+        errorMessage.textContent = "Usrname must be between 5 and 12 characters!";
+        errorMessage.style.color = "red";  
+    }
+    else {
         errorMessage.textContent = "Form submitted successfuly!";
         errorMessage.style.color = "green";
         
     }
+
 
 }
   </script>
