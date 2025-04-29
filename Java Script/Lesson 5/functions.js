@@ -14,3 +14,9 @@ function fourth(){
     console.log("Hello Advaith")
 }
 fourth()
+
+function greet(){
+    console.log("hello greet")
+
+}
+greet("Advaith")
