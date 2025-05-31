@@ -16,7 +16,3 @@ function printBookDetails(obj){
 
 }
 
-let book={
-    title:"cdkc ld ",
-};
-console.log("title",book.title);
