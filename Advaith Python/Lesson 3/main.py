@@ -29,11 +29,15 @@
 #     print("Grade: C")
 # else:
 #     print("Grade:F ")
-import datetime
-currentTime = datetime.datetime.now()
-print("Currnet date and Time:", currentTime)
 
-formatted_time = currentTime.strftime("%d-%m-%Y %H:%M:%S")
 
-print("Formatted Date and Time:", formatted_time)
+num = int(input("Enter your Number:"))
+if num >= 50:
+   print("Approved")
+
+else:
+   print("Rejected")
+ 
+ 
+   
 
