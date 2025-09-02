@@ -7,18 +7,23 @@
 // console.log("Author:",book.Author);
 // console.log("Book Price:",book.Price);
 
-function printBookDetails(obj){
-    console.log("\nBook Details:");
-    console.log("Title:",obj.title);
+// function printBookDetails(obj){
+//     console.log("\nBook Details:");
+//     console.log("Title:",obj.title);
     
-    console.log("Author:",obj.Author);
-    console.log("Price:",obj.Price);
+//     console.log("Author:",obj.Author);
+//     console.log("Price:",obj.Price);
 
-}
+// }
 
-let book = {
-    title:"fatty",
-    Author:"price nike"
-    Prices:"$24.00",
-}
+let shop ={
+    sweet: "Cadbury",
+    flavour: "craramel",
+    Price:"1.99"
+};
+console.log("Chocolate:",shop.sweet)
+console.log("falvour:",shop.flavour)
+console.log("Price:",shop.Price)
+
+
 

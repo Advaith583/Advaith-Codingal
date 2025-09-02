@@ -17,7 +17,7 @@
 numberLargest = int(input("Enter the largest number:"))
 numberSmallest = int(input("Enter the smallest number:"))
 while numberSmallest:
-    numberStore = numberSmallest
+    numberSto   re = numberSmallest
     numberSmallest = numberLargest % numberSmallest
     numberLargest = numberStore
 
