@@ -15,7 +15,7 @@
 
 </header>
 
-<main class="container mt-5 mb-5 container-lg" ></main>
+<main class="container mt-5 mb-5 container-md" ></main>
 <section class="mb-4">
     <h3 class="text-primary text-center" te>Impotance of caffinee</h3>
     <p class="text-success text-center">Caffeine can be considered "good for you" in moderate amounts because it acts as a stimulant, boosting alertness, focus, and cognitive function, potentially improving mood and physical performance?</p>
