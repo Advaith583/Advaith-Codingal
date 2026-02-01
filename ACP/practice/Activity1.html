@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Book Library</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; max-width: 600px; margin: auto; }
+        .book-card { border: 1px solid #ddd; padding: 10px; margin: 10px 0; border-radius: 5px; }
+        .search-bar, .filter-buttons { margin-bottom: 10px; }
+        .filter-buttons button { margin-right: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Interactive Book Library</h1>
+    <input type="text" id="search" class="search-bar" placeholder="Search books..." oninput="filterBooks()">
+    <div class="filter-buttons">
+        <button onclick="setFilter('All')">All</button>
+        <button onclick="setFilter('Classic')">Classic</button>
+        <button onclick="setFilter('Science Fiction')">Sci-Fi</button>
+    </div>
+    <div id="book-list"></div>
+
+    <script>
+        const books = [
+            { title: "1984", author: "George Orwell", genre: "Dystopian" },
+            { title: "The Great Gatsby", author: "F. Scott Fitzgerald", genre: "Classic" },
+            { title: "To Kill a Mockingbird", author: "Harper Lee", genre: "Classic" },
+            { title: "Dune", author: "Frank Herbert", genre: "Science Fiction" },
+        ];
+
+        let filter = "All";
+
+        function displayBooks() {
+            const bookList = document.getElementById("book-list");
+            bookList.innerHTML = "";
+            const search = document.getElementById("search").value.toLowerCase();
+            const filteredBooks = books.filter(book => 
+                (filter === "All" || book.genre === filter) &&
+                book.title.toLowerCase().includes(search)
+            );
+
+            filteredBooks.forEach(book => {
+                const bookCard = document.createElement("div");
+                bookCard.classList.add("book-card");
+                bookCard.innerHTML = `<h2>${book.title}</h2><p>by ${book.author}</p><p><

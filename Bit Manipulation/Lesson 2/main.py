@@ -22,3 +22,4 @@ number = int(input("Enter the number:"))
 n = int(input("Enter the  it position:"))
 setOrNot(number , n)
          
+      
